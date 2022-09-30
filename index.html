@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentalisa</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div class="container">
+
+    <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" class="page-logo" alt="Imagem de uma bola de cristal"/>
+
+    <h1 class="page-title">Tente adivinhar o número correto!</h1>
+
+    <p class="page-subtitle">
+      (Digite um número de 0 a 50)
+    </p>
+    
+    <section class="flex" id="flex">
+      <input type="number" id="valor" /><br>
+      <button id="chutar" type="submit" onclick="Chutar()">Chutar</button>
+      <button id="jogar" type="submit" onclick="Refresh()" style="display: none;">Jogar Novamente</button>
+    </section>
+
+    
+
+    <h2 class="resultado" id="resultado"></h2>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
